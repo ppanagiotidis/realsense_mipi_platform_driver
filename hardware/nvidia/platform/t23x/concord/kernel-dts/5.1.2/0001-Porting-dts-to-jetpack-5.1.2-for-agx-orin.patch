@@ -1,0 +1,14 @@
+diff --git a/tegra234-p3701-0000-p3737-0000.dts b/tegra234-p3701-0000-p3737-0000.dts
+index 4059d66b5..0a7bfe9aa 100644
+--- a/tegra234-p3701-0000-p3737-0000.dts
++++ b/tegra234-p3701-0000-p3737-0000.dts
+@@ -20,7 +20,8 @@
+ #include "tegra234-power-tree-p3701-0000-p3737-0000.dtsi"
+ #include "tegra234-dcb-p3701-0000-a02-p3737-0000-a01.dtsi"
+ #include <tegra234-soc/mods-simple-bus.dtsi>
+-#include "cvb/tegra234-p3737-camera-modules.dtsi"
++/*#include "cvb/tegra234-p3737-camera-modules.dtsi"*/
++#include "cvb/tegra234-camera-d4xx.dtsi"
+ #include <t234-common-cvb/tegra234-pwm.dtsi>
+ #include <t234-common-cvm/tegra234-cpuidle.dtsi>
+ #include <t234-common-cvm/tegra234-thermal.dtsi>
